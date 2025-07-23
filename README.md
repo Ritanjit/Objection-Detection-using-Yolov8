@@ -62,16 +62,16 @@ gradio deploy
 </tr>
 <tr>
   <td align="center">
-    <img src="https://your-repo-link.com/input.webp" width="250"/>
+    <img src="https://raw.githubusercontent.com/Ritanjit/Objection-Detection-using-Yolov8/main/input.webp" width="250"/>
   </td>
   <td align="center">
-    <img src="https://your-repo-link.com/yolov8n.webp" width="250"/>
+    <img src="https://raw.githubusercontent.com/Ritanjit/Objection-Detection-using-Yolov8/main/yolov8n.webp" width="250"/>
   </td>
   <td align="center">
-    <img src="https://your-repo-link.com/yolov8m.webp" width="250"/>
+    <img src="https://raw.githubusercontent.com/Ritanjit/Objection-Detection-using-Yolov8/main/yolov8m.webp" width="250"/>
   </td>
   <td align="center">
-    <img src="https://your-repo-link.com/yolov8x.webp" width="250"/>
+    <img src="https://raw.githubusercontent.com/Ritanjit/Objection-Detection-using-Yolov8/main/yolov8x.webp" width="250"/>
   </td>
 </tr>
 <tr>
