@@ -11,42 +11,7 @@
 > **Project Description:**
 > This project implements a visual comparison framework for object detection using three YOLOv8 models (Nano, Medium, Extra-large). It enables users to upload images and receive annotated detections from each model variant, displayed side-by-side for performance inspection through an interactive Gradio web interface.
 
-
-## 📊 Dataset
-
-* **Source:** COCO Dataset (pretrained on COCO 2017 via Ultralytics YOLOv8)
-* **Input:** JPG/PNG images uploaded by users
-* **Output:** Annotated images with bounding boxes, class labels, and confidence scores for detected objects
-
-
-## <img src="https://raw.githubusercontent.com/Ritanjit/Objection-Detection-using-Yolov8/main/logo.png" width="22" height="22"/>  YOLOv8 Models Used
-
-| Model       | Speed       | Size   | Accuracy | Use Case            |
-|-------------|-------------|--------|----------|---------------------|
-| YOLOv8n     | Fastest     | ~5 MB  | Lower    | Edge & real-time    |
-| YOLOv8m     | Balanced    | ~22 MB | Medium   | General-purpose     |
-| YOLOv8x     | Most Accurate | ~70 MB | Highest  | Accuracy-priority   |
-
-Each uploaded image is processed by all 3 models and returned in a comparative layout.
-
-
-## ⚙️ How to Use
-
-### 🔧 Local Setup
-```bash
-git clone https://github.com/YOUR_USERNAME/yolov8-multi-model-detector.git
-cd yolov8-multi-model-detector
-pip install -r requirements.txt
-python app.py  # Launches Gradio on localhost
-```
-
-### ☁️ Deploy via Hugging Face Spaces
-```bash
-gradio deploy
-```
-
-
-## <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4f7/512.gif" alt="📷" width="25" height="25"></picture> Sample Output
+## <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4f7/512.gif" alt="📷" width="25" height="25"></picture> Sample Output
 
 <table>
 <tr>
@@ -80,6 +45,40 @@ gradio deploy
   </td>
 </tr>
 </table>
+
+
+## 📊 Dataset
+
+* **Source:** COCO Dataset (pretrained on COCO 2017 via Ultralytics YOLOv8)
+* **Input:** JPG/PNG images uploaded by users
+* **Output:** Annotated images with bounding boxes, class labels, and confidence scores for detected objects
+
+
+## <img src="https://raw.githubusercontent.com/Ritanjit/Objection-Detection-using-Yolov8/main/logo.png" width="22" height="22"/>  YOLOv8 Models Used
+
+| Model       | Speed       | Size   | Accuracy | Use Case            |
+|-------------|-------------|--------|----------|---------------------|
+| YOLOv8n     | Fastest     | ~5 MB  | Lower    | Edge & real-time    |
+| YOLOv8m     | Balanced    | ~22 MB | Medium   | General-purpose     |
+| YOLOv8x     | Most Accurate | ~70 MB | Highest  | Accuracy-priority   |
+
+Each uploaded image is processed by all 3 models and returned in a comparative layout.
+
+
+## ⚙️ How to Use
+
+### 🔧 Local Setup
+```bash
+git clone https://github.com/YOUR_USERNAME/yolov8-multi-model-detector.git
+cd yolov8-multi-model-detector
+pip install -r requirements.txt
+python app.py  # Launches Gradio on localhost
+```
+
+### ☁️ Deploy via Hugging Face Spaces
+```bash
+gradio deploy
+```
 
 
 ---
